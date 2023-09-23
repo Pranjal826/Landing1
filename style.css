@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.inner-container {
+    background-image: url(https://images.unsplash.com/photo-1593121925328-369cc8459c08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 199;
+    background-color: rgb(219, 219, 219);
+}
+.menu{
+  width: 40vmax;
+    background-color: rgb(219, 219, 219);
+ 
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo>img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+ 
+    font-family: 'Poppins', sans-serif;
+}
+
+.head>h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-head {
+    display: flex;
+    /* justify-content: space-arou; */
+    align-items: center;
+    gap: 15px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shop-now {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 15vmax;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f7e9e9;
+    transition: all 0.3s ease;
+    box-shadow: -4px 6px 12px rgb(196, 200, 212);
+}
+
+.user-img {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.user-img>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.shop-now:hover {
+    background-color: #f7e9e9;
+    transform: translateY(-5px);
+    box-shadow: -4px 6px 12px rgb(196, 200, 212);
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ 
+    gap: 50px;
+    background-color: aliceblue;
+}
+.category>h1{
+    margin-top: 20px;
+}
+
+.category-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cat-images {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 24; */
+    height: 20vh;
+    transition: 0.5s ease all;
+
+}
+
+.cat-images:hover {
+    transform: translateY(-5px);
+    box-shadow: -4px 6px 12px rgba(27, 66, 186, 0.652);
+}
+
+.img1 {
+
+    background-image: url(https://media.istockphoto.com/id/1205742649/photo/wireless-earbuds-or-earphones-on-blue-background.jpg?s=1024x1024&w=is&k=20&c=-sug1NVTLWzdsQfUaW3KolOQ_qU9s9HL9U1MxVAixZI=);
+}
+
+.img2 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQDY3ref_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-alpine-ultra_VW_34FR_WF_CO_GEO_IN?wid=2000&hei=2000&fmt=png-alpha&.v=1683224241054);
+}
+
+.img3 {
+    background-image: url(https://images.unsplash.com/photo-1574683189522-9c5a95f78b76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9iaWxlJTIwYWNjZXNvcmllc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60);
+}
+
+.img4 {
+    background-image: url(https://images.unsplash.com/photo-1580327344181-c1163234e5a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80);
+}
+
+.img5 {
+    background-image: url(https://images.unsplash.com/photo-1551645120-d70bfe84c826?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80);
+}
+
+.div-img{
+    border-radius: 30px;
+    width: 200px;
+    height: 36vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   text-align: center;
+    padding: 20px;
+    background-color: rgba(27, 33, 31, 0.136);
+}
+.headphone{
+    display:flex;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.809);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.left,.right{
+    margin-top: 60px;
+}
+.rright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.right{
+   width: 100%;
+   height: 100%;
+   background-image: url(https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+
+.time{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    
+}
+.time1{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.time1>h3{
+    border-radius: 50%;
+    text-align: center;
+    width: 30px; 
+    background-color: rgba(146, 156, 164, 0.494);
+}
+.check{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 15vmax;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: royalblue;
+    transition: all 0.3s ease;
+    box-shadow: -4px 6px 12px rgb(196, 200, 212);
+}
+.right-icons>i{
+    margin-left: 20px;
+    font-size: 2rem;
+    color: rgb(99, 75, 75);
+    transition: 0.6s ease all;
+   
+}
+.right-icons>i:hover{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+  
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 100%;
+    height: 140vh;
+    background-color: rgba(255, 255, 255, 0.809);
+}
+.explore-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.809);
+}
+.img{
+
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.im{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+.image1{
+    background-image: url(https://images.unsplash.com/photo-1632312527375-bd5d5a0d3484?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHhib3h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60);
+}
+.image2{
+    background-image: url(https://images.unsplash.com/photo-1626958390943-a70309376444?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+}
+.image3{
+    background-image: url(https://images.unsplash.com/photo-1516961642265-531546e84af2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+}
+.image4{
+    background-image: url(https://media.istockphoto.com/id/1415128979/photo/sound-speaker-on-white-background.webp?s=1024x1024&w=is&k=20&c=MBq60-OPDWFN0jqtlmvrgBgarnrKs-uIU-iHxaulR7s=);
+}
+
+
+@media(max-width:600px){
+    .nav{
+        display: none;
+    }
+    .bottom-head{
+        flex-direction: column;
+    }
+   .category-images{
+    flex-direction: column;
+   }
+
+   .headphone{
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+   }
+   .left,.rright{
+    width: 80%;
+   }
+   .explore{
+    height: 350vmax;
+    padding: 10px;
+
+   }
+   .explore-one{
+    height:100%;
+    flex-direction: column;
+   }
+   .img{
+    width: 50%;
+   }
+}
